@@ -1,7 +1,15 @@
-body{font-family: "Vesper Libre", serif; color: solid #1a1a1a; line-height: 1.5; margin: 0;}
+body{font-family: "Vesper Libre", serif; color: #1a1a1a; line-height: 1.5; margin: 0;}
 header,footer{background-color: #000; color: #fff; text-align: center; align-items: center;}
-image{width: 100%;}
+#photo{width: 100%;}
 #logo{width: 100px; padding-top: 8px;}
 main{padding: 20px;}
 h1{font-size: 2rem;line-height: 1.3;margin-top: 1rem;margin-bottom: 1rem;}
-.News{display: inline-block; text-transform: capitalize; fomt-size: .85rem;border-bottom: 2 px solid #ff3530;}
+.News{display: inline-block; text-transform: capitalize; font-size: .85rem;border-bottom: 2px #ff3530;}
+figcaption, .News, .info, h2{font-family: "Open Sans", serif;}
+.info{font-size: .85rem; margin-bottom: 0;}
+figure{margin: 1.25em 0;}
+.caption{font-size: .75rem; text-align: center; color: #757575; font-style: italic;}
+ul{list-style: noen;padding: 0}
+.info{color: #1a1a1a;}
+.link:hover {text-decoration: none;color: #ff3530;}
+.link{color: #1a1a1a;} 
